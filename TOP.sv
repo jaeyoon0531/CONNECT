@@ -38,7 +38,7 @@ module TOP;
  
     
     //=========================================================
-    //  from CNN Engine
+    //  from CNN ENGINE
     //=========================================================
     wire    [PARAM-1:0] AR_i    ;
     wire    [PARAM-1:0] AW_i    ;
@@ -68,6 +68,7 @@ module TOP;
     wire    [PARAM-1:0] EW_o    ;   //enabled W
 
     wire    [PARAM-1:0] ER_o    ;   //enabled R
+    //wire    [PARAM-1:0] mc_b_intf;
 
     //=========================================================
     //  to XHB
@@ -75,6 +76,14 @@ module TOP;
     wire    [PARAM-1:0] MAR_o   ;   //muxed AR
     wire    [PARAM-1:0] MAW_o   ;   //muxed AW
     wire    [PARAM-1:0] MW_o    ;   //muxed W
+    
+    //=========================================================
+    //  to CNN ENGINE
+    //=========================================================
+    wire    [PARAM-1:0] R_o     ;
+    wire    [PARAM-1:0] B_o     ;
+    //wire    [PARAM-1:0] icnt_b_intf;
+    
   
     //=========================================================
     //  Final OUTPUT
@@ -84,12 +93,9 @@ module TOP;
     wire    [PARAM-1:0] AW_o    ;
     wire    [PARAM-1:0] W_o     ;
     */
-    wire    [PARAM-1:0] R_o     ;
-    wire    [PARAM-1:0] B_o     ;
     
-
-    wire    [PARAM-1:0] mc_b_intf;
-    wire    [PARAM-1:0] icnt_b_intf;
+    
+    
 
 
 
