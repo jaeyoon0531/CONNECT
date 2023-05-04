@@ -37,6 +37,9 @@ module TOP;
     axi_resp_t                      rresp;
  
     
+    //=========================================================
+    //  from CNN Engine
+    //=========================================================
     wire    [PARAM-1:0] AR_i    ;
     wire    [PARAM-1:0] AW_i    ;
     wire    [PARAM-1:0] W_i     ;
@@ -96,7 +99,6 @@ module TOP;
         .rst_n                      (rst_n),
 
         // APB interface
-        .apb_intf                   (),
         .ENABLE_i                   (ENABLE_i),
 
         // AXI interface
