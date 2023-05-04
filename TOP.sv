@@ -174,9 +174,11 @@ module TOP;
         .MAW_o                      (MAW_o),
         .MW_o                       (MW_o),
 
+        /*
         .AR_o                       (AR_o),
         .AW_o                       (AW_o),
         .W_o                        (W_o),
+        */
         
         .R_o                        (R_o),
         .B_o                        (B_o)
