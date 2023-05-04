@@ -95,11 +95,6 @@ module TOP;
     */
     
     
-    
-
-
-
-
     AIDC_TOP                        u_aidc
     (
         .clk                        (clk),
