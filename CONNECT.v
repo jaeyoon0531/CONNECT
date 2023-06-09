@@ -98,7 +98,7 @@ module CONNECT(
     //  R ch
     //=========================================================
 
-    AND         u_and0(             //R & EN
+    AND         u_and3(             //R & EN
         .A_i        (R_i        ),
         .B_i        (ENABLE_i   ),
         .Y_o        (ER_o       )
