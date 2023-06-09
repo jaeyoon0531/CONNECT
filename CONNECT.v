@@ -42,11 +42,12 @@ module CONNECT(
     //=========================================================
     //  Final OUTPUT
     //=========================================================
-
+    /*
     output  wire    [PARAM-1:0] AR_o    ;
     output  wire    [PARAM-1:0] AW_o    ;
     output  wire    [PARAM-1:0] W_o     ;
-
+    */
+    
     output  wire    [PARAM-1:0] R_o     ;
     output  wire    [PARAM-1:0] B_o     ;
 );
@@ -111,9 +112,9 @@ module CONNECT(
         .Y_o        (MR_o       )
     );
 
-    assign  AR_o    =   MAR_o   ;
-    assign  AW_o    =   MAW_o   ;
-    assign  W_o     =   MW_o    ;
+    // assign  AR_o    =   MAR_o   ;
+    // assign  AW_o    =   MAW_o   ;
+    // assign  W_o     =   MW_o    ;
     assign  R_o     =   MR_o    ;
     assign  B_o     =   B_i     ;
 
